@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: grey;
+	min-height: 200px;
+}
+
+footer {
+	background-color: grey;
+	min-height: 100px;
+}
+
+.container {
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#boxes {
+	margin-top: 10px;
+	background-image: url("./img/profile.jpg");
+	text-align: center;
+}
+
+#boxes2{
+	margin-top: 0;
+	background-color: darkgrey;
+	text-align: center;
+}
+
+#boxes2 .boxtop{
+	float: left;
+	width: 23%;
+	padding: 10px;
+
+}
+
+#boxes img, #boxes2 img {
+	width: 200px;
+	text-align: center;
+}
+
+#contact {
+	width: 30%;
+	background-color: darkgrey;
+}
+
+#contact2 {
+	width: 70%;
+	
+	background-color: darkgrey;
+}
