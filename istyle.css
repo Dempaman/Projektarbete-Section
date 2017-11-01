@@ -1,0 +1,82 @@
+.Pmain {
+    display:flex;
+    background-color: gainsboro;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Pimage > img {
+    align-self: center;
+    width: 100%;
+    height: 200px;
+}
+
+.shortcuts {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+.shortcuts > div {
+    margin: 4%;
+    text-align: center;
+    width:12%;
+    margin-bottom: 200px;
+}
+
+.PPPM {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 300px;
+}
+
+.FEUM {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 300px;
+}
+
+.PPPM > h3 {
+    color: green;
+}
+
+.ReviewM {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+}
+.Ritem {
+    display:flex;
+flex-direction: column;
+flex: 0 0 10%;
+padding: 5%;
+}
+
+.Rimage > img {
+    max-width: 100%;
+}
+
+.Rcontent {
+    margin-top: auto;
+}
+
+.SpecM {
+    
+}
+
+.SpecM > h4 {
+    text-align: left
+}
+
+.Tlist {
+    align-items: center;
+    list-style: none;
+    color: dimgrey;
+}
+
+.Bottom > img {
+    align-self: center;
+    width: 100%;
+    height: 200px;
+}
