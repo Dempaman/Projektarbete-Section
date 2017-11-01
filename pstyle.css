@@ -3,15 +3,13 @@
 }
 .Pitem {display:flex;
 flex-direction: column;
-flex: 1 1 auto;
+flex: 1 29%;
 padding: 2%;}
-.Pimage > img {width:100%; max-width: 300px;}
-.Pinfo {max-width: 300px;
-margin-top: auto;
+.Pimage > img {max-width: 100%;}
+.Pinfo {margin-top: auto;
 text-align: center;}
 .Pheader{ display: flex;}
 .Pheader h2 {flex-grow: 1;}
 .Pinput {display: flex;
 height: auto;
 align-items: center;}
-#Slabel {}
