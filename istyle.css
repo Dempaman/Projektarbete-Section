@@ -25,40 +25,43 @@
     margin-bottom: 200px;
 }
 
+.shortcuts img {
+    width: 4em;
+}
+
 .PPPM {
     display:flex;
     flex-direction: column;
     margin-bottom: 300px;
+    border: solid black 2px;
 }
 
 .FEUM {
     display: flex;
     flex-direction: column;
     margin-bottom: 300px;
-}
-
-.PPPM > h3 {
-    color: green;
+    border: solid black 2px;
 }
 
 .ReviewM {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 150px;
+    width: 100%;
 }
 .Ritem {
     display:flex;
 flex-direction: column;
-flex: 0 0 10%;
-padding: 5%;
+flex: 0 0 31%;
+padding: 1%;
 }
 
 .Rimage > img {
-    max-width: 100%;
+    max-width: 80px;
 }
 
 .Rcontent {
-    margin-top: auto;
+    
 }
 
 .SpecM {
@@ -66,7 +69,7 @@ padding: 5%;
 }
 
 .SpecM > h4 {
-    text-align: left
+    text-align: left;
 }
 
 .Tlist {
