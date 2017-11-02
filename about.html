@@ -7,42 +7,60 @@
 	<meta name="keywords" content="">
 	<meta name="author" content="Jonas Ekström">
 	<title>About US</title>
-	<link rel="stylesheet" type="text/css" href="./css/about.css">
+	<link rel="stylesheet" type="text/css" href="./css/about3.css">
 </head>
 <body>
 	<header>
+		
 	</header>
-		<section id="boxes">
-			<div class="container">
-				<div>
-					<img src="./img/profile.jpg">
-					<div>Keyboard Warrior CEO<br />Contrary to popular belief, this guy runs this company with his ironfist.</div>
-				</div>
-			</div>	
+		<section class="fullrescontainer">
+			<ul class="tabs">
+				<li><input type="radio" name="tabs" id="tab1"><label for="tab1"><img src="img/profile.jpg" class="picture"><span class="textposition">David Keyboard Warrior CEO</span></label>
+					<div class="tab-content">
+						<img src="img/profile.jpg" class="picture2"><h3>David<h3><h5>555-452445</h5><h4>Keypire - Not-A-Vampire:</h4><p class="mediumfont">
+						Mostly walks around the office complaining about all the windows letting in too much sunlight and sucking our competitors dry, his most standout feature is his outstanding charisma, he always has at least one producer walking happily behind him, and the huge key he always carries with him for some reason.<br> 
+						He says his goal is to enslave all of humanity, but off the record, we think he's just being shy.
+						</p>
+
+					</div>
+				</li>
+				<li><input type="radio" name="tabs" id="tab2"><label for="tab2"><img src="img/profile.jpg" class="picture">Dennis</label>
+					<div class="tab-content">
+						<img src="img/profile.jpg" class="picture2"><h3>Dennis<h3><h5>555-452445</h5><h4>Hsa - Ketchup:</h4><p class="mediumfont">
+						A man who always shines like a sun with others around (Much to the display of Keypire), he's very positive and brings the whole team up whenever things are going slow. A conversational genius and always takes care of our presentations, he's the face of the company, and he never goes without his signature backwards-facing cap. Sometimes he does this weird hand-shuffle dance when he thinks nobody is around and says "hey" a lot, he thinks nobody knows. <br>
+						His goal is the to be the very best, like noone ever was.
+						</p>
+					</div>
+				</li>
+				<li><input type="radio" name="tabs" id="tab3"><label for="tab3"><img src="img/profile.jpg" class="picture">Albin</label>
+					<div class="tab-content">
+						<img src="img/profile.jpg" class="picture2"><h3>Albin<h3><h5>555-452445</h5><h4>Ku Kulän - Something:</h4><p class="mediumfont">
+						Our chief writer who writes all the articles posted on our site as well as our patch notes, he's a casual individual who takes everything in a stride. He swears that he always comes on time, no matter what, but somehow he arrives just a few minutes late every time, even if we walk with him to work an hour early, we have no idea how he does it. He also has never even once won a coin flip, so he's become really good at cleaning and fetching juice. We often question his liking to blue tights and red pens, but it's become a bit of an inside joke at this point.<br>
+						His goal is to just have a good time and visit ireland at some point with his teacher.
+						</p>
+						
+					</div>
+				</li>
+				<li><input type="radio" name="tabs" id="tab4"><label for="tab4"><img src="img/profile.jpg" class="picture">Christopher</label>
+					<div class="tab-content">
+						<img src="img/profile.jpg" class="picture2"><h3>Christopher<h3><h5>555-452445</h5><h4>Something - Something:</h4><p class="mediumfont">
+						He's our tech-specialist and handles the research going into the actual hardware of our products. He practically eats keyboards for breakfast! No, really, he eats keyboard-key cereal with milk every morning, "It's a good source of iron and contains natural salt" he says. He's a friendly soul who helps out whenever we need some extra information about the keyboards and is the first to come up with new designs.<br>
+						His dream is to build a house made completely out of keyboards and to go on a trip to germany with his family.
+						</p>
+						
+					</div>
+				</li>
+				<li><input type="radio" name="tabs" id="tab5"><label for="tab5"><img src="img/profile.jpg" class="picture">Five</label>
+					<div class="tab-content">
+						<p><img src="img/profile.jpg" class="picture2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+						</p>
+						
+					</div>
+				</li>
+
+			</ul>
 		</section>
-		<section id="boxes2">
-			<div class="container">
-				<div class="boxtop">
-					<img src="./img/trollface.png">
-					<figcaption>Product Manager<br />Contrary to popular belief</figcaption>
-				</div>
-				<div class="boxtop">
-					<img src="./img/trollface.png">
-					<h3>Accountant</h3>
-					<p>Contrary to popular belief</p>
-				</div>
-				<div class="boxtop">
-					<img src="./img/trollface.png">
-					<h3>Sales rep</h3>
-					<p>Contrary to popular belief</p>
-				</div>
-				<div class="boxtop">
-					<img src="./img/trollface.png">
-					<h3>Techguy</h3>
-					<p>Contrary to popular belief</p>
-				</div>
-			</div>	
-		</section>
+
 		<section>
 			<div id="contact">
 				<form>
@@ -52,12 +70,10 @@
 						<label for="email">Email: </label><br><input type="text" id="email" /><br>
 						<label for="department">Department: </label><br>
 						<select>
-							<optgroup label="Department">
-								<option value="Product">Product</option>
-								<option value="Sales">Sales</option>
-								<option value="Economy">Economy</option>
-								<option value="Technical">Technical</option>
-							</optgroup>
+							<option value="Product">Product</option>
+							<option value="Sales">Sales</option>
+							<option value="Economy">Economy</option>
+							<option value="Technical">Technical</option>
 						</select><br>
 						<label for="subject">Subject:</label><br><textarea id="subject" name="subject" placeholder="What can i help you with...." style="height:200px; width: 90%; text-align: left;"></textarea><br>
 						<input type="submit" value="Submit" id="submit" style="float:right" />
@@ -65,7 +81,50 @@
 				</form>
 			</div>
 			</section>
-		</div>
+			<section class="contact2">
+				<ul class="faqs">
+					<li><input type="radio" name="faqs" id="faq1"><label for="faq1">Is Keypire a vampire? </label>
+						<div class="faq-content">
+						I don't know why we get this question that much, what makes people think that? Anyway, he's not.
+						</p>
+
+					</div>
+				</li>
+				<li><input type="radio" name="faqs" id="faq2"><label for="faq2">You guys seem to different, how do you get along so well? </label>
+					<div class="faq-content">
+						Pain, sweat and tears. No, I'm just kidding, we just kind of complement eachother. Something one person can't do another can, and we all share interests in keyboards and new tech, so it works out.
+						</p>
+					</div>
+				</li>
+				<li>
+					<input type="radio" name="faqs" id="faq3"><label for="faq3">Could you look into this idea *idea*? </label>
+					<div class="faq-content">
+						Absolutely, send them our way, we'll look into it and see what we can do with it, no guarantees though.
+						</p>
+					</div>
+				</li>
+				<li><input type="radio" name="faqs" id="faq4"><label for="faq4">Something is wrong with my product, can you fix it?</label>
+					<div class="faq-content">
+						Of course! Send a message with your product number and a description of your problem and we'll get back to you as soon as possible
+						</p>
+					</div>
+				</li>
+				<li><input type="radio" name="faqs" id="faq5"><label for="faq5">Are you guys that famous boy band?</label>
+					<div class="faq-content">
+						... No, I'm afraid we're not. We'll take it as a compliment though.
+						</p>
+					</div>
+				</li>
+				<li><input type="radio" name="faqs" id="faq6"><label for="faq6">wedasd</label>
+					<div class="faq-content">
+						A man who always shines like a sun with others around (Much to the display of Keypire), he's very positive and brings the whole team up whenever things are going slow. A conversational genius and always takes care of our presentations, he's the face of the company, and he never goes without his signature backwards-facing cap. Sometimes he does this weird hand-shuffle dance when he thinks nobody is around and says "hey" a lot, he thinks nobody knows. <br>
+						His goal is the to be the very best, like noone ever was.
+						</p>
+					</div>
+				</li>
+
+			</ul>
+			</section>
 	<footer>
 		
 	</footer>
