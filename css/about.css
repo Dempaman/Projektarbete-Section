@@ -63,6 +63,10 @@ select {
 	background-color: lightgray;
 }
 
+.contact2 h1 {
+	text-align: center;
+}
+
 .fullrescontainer {
 	margin: 0;
 	height: 800px;
