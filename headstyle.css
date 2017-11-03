@@ -1,18 +1,22 @@
   * {
     margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-transition: all 0.3s ease-out;
+    transition-delay: initial;
   }
 
-  a:visited {
+  .right-header a:visited {
     color: #222222;
   }
 
-  a:link {
+  .right-header a:link {
     text-decoration: none;
     color: #222222;
   }
 
   body {
-    background-color: #F9F9F9;
+    background-color:  #E0E2E4;
   }
 
   /* Headerstyle.. */
@@ -20,7 +24,7 @@
   header {
     height: 50px;
     position: relative;
-    background-color: #F9F9F9;
+    background-color: #E0E2E4;
     color: #FAFAFA;
   }
 
@@ -75,11 +79,9 @@
     padding-left: 15px;
     display: inline-block;
     text-decoration: none;
-
   }
 
-  .headerIcons,
-  .a-text {
+  .headerIcons, .a-text {
     top: 50%;
     position: relative;
     opacity: 1;
@@ -87,8 +89,7 @@
     backface-visibility: hidden;
   }
 
-  header li:hover .headerIcons,
-  header li:hover .a-text {
+  header li:hover .headerIcons, header li:hover .a-text {
     opacity: 0.3;
   }
 

@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-transition: all 0.3s ease-out;
+  transition-delay: initial;
+}
+
+div, span, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+.mainBox {
+  display: flex;
+}
+
+.mainBox>div {
+  flex: 1 1 auto;
+}
+
+.imgBox {
+  width: 50%;
+  height: auto;
+}
+
+.imgBox img {
+  width: 50%;
+  height: auto;
+  display: block;
+  float: right;
+}
+
+.overlayBox {
+  position: absolute;
+  height: 100%;
+  width: 50%%;
+  top: 0;
+  left: 70px;
+}
+
+.overlayBox2 {
+  display: table;
+  width: 70%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.overlayInnerBox {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.mainTextStyle {
+  text-align: left;
+  font-family: arial;
+  color: #3b3a30;
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+}
+
+.show51 {
+  display: none;
+  text-align: left;
+  font-family: arial;
+  color: #3b3a30;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+}
+
+.loadfade {
+  opacity: 1;
+}
+
+section {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+.sectionstyle {
+  position: relative;
+  border-bottom: solid 1px #dddddd;
+}
+
+.button {
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  background-color: #F1F1F1;
+  display: inline-block;
+  padding: 0 30px;
+  margin: 20px 0 0;
+  height: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 40px;
+  font-family: arial;
+}
+
+a.button {
+  color: #3b3a30;
+}
+
+/* Hover effekt över knappar och länkar */
+
+.button:hover {
+  opacity: 0.5;
+  transition: .3s ease;
+  backface-visibility: hidden;
+  background-color: white;
+  color: black;
+}
+
+.button:hover {
+  opacity: 0.3;
+}
+
+/* Hover effekt över knappar och länkar END... */
+
+@media only screen and (max-width: 1024px) {
+  .mainTextStyle {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .mainTextStyle {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .mainTextStyle {
+    font-size: 24px;
+    line-height: 34px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .mainTextStyle {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .mainTextStyle {
+    display: none;
+  }
+  .show51 {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .mainTextStyle {
+    display: none;
+  }
+  .show51 {
+    display: none;
+  }
+}
+
+/* Bar style */
+
+.barStyle {
+  padding: 50px 30px;
+  background-color: #222222;
+  display: block;
+  letter-spacing: 0.3px;
+  border-bottom: solid 1px #dddddd;
+}
+
+.wrap {
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: arial;
+  font-weight: 400;
+}
