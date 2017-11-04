@@ -7,12 +7,12 @@
   }
 
   .right-header a:visited {
-    color: #222222;
+    color: #FFFFFF;
   }
 
   .right-header a:link {
     text-decoration: none;
-    color: #222222;
+    color: #FFFFFF;
   }
 
   body {
@@ -24,8 +24,8 @@
   header {
     height: 50px;
     position: relative;
-    background-color: #E0E2E4;
-    color: #FAFAFA;
+    background-color: #000000;
+    color: #FFFFFF;
   }
 
   .head-container {
@@ -71,7 +71,7 @@
     padding: 10px 20px;
     line-height: 25px;
     display: inline-block;
-    font-weight: 750;
+    font-weight: 400;
   }
 
   .a-text {
@@ -106,9 +106,9 @@
     border-top: 1px solid #263238;
     border-bottom: 1px solid #263238;
     list-style-type: none;
-    padding: 20px 25px;
+    padding: 10px 25px;
     margin: 0;
-    background: #FFFFFF;
+    background: #1F1F1F;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -125,7 +125,7 @@
     padding: 1em;
     margin-right: 15px;
     margin-left: 15px;
-    color: #3b3a30;
+    color: #FFFFFF;
     font-family: arial;
   }
 
@@ -171,7 +171,7 @@
     display: inline-block;
     height: 1em;
     width: 100%;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #B86F15;
     margin-top: 10px;
     opacity: 0;
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;

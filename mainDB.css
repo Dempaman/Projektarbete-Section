@@ -101,9 +101,9 @@ section {
 }
 
 .button {
-  border: 1px solid #dddddd;
+  border: 1px solid #F5F5F5;
   border-radius: 8px;
-  background-color: #F1F1F1;
+  background-color: #B0B0B0;
   display: inline-block;
   padding: 0 30px;
   margin: 20px 0 0;
@@ -117,7 +117,7 @@ section {
 }
 
 a.button {
-  color: #3b3a30;
+  color: #FFFFFF;
 }
 
 /* Hover effekt över knappar och länkar */
@@ -190,13 +190,13 @@ a.button {
   background-color: #222222;
   display: block;
   letter-spacing: 0.3px;
-  border-bottom: solid 1px #dddddd;
+  border-bottom: solid 1px #005085;
 }
 
 .wrap {
   text-align: center;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #FFFFFF;
   font-family: arial;
   font-weight: 400;
 }

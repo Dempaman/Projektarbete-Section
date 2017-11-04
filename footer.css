@@ -20,7 +20,7 @@
 .footerBox {
   position: relative;
   display: block;
-  background-color: #161618;
+  background-color: #012650; /*#161618;*/
 }
 .containerfoot {
   padding: 50px 0 50px;
