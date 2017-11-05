@@ -1,22 +1,25 @@
-
-.container {
-	width: 90%;
-	margin: auto;
-	overflow: hidden;
-}
-
-.contact {
-	width: 50%;
-	float:left;
-	font: 20px/1.5 Arial Helvetica, Sans-sarif;
-	background-color: lightgray;
-}
+/* Contactform */
 
 fieldset {
 	border: 2px solid black;
-	background-color: #ffffff
+	padding-left: 55px;
+	color:#ffffff;
+	border-radius: 20px;
+	background-color: #012650;
+	height: 800px;
+}
+fieldset legend {
+	font-size: 200%;
+}
+input[type="text"], textarea, select {
+	background-color: #ffffff;
 }
 
+input {
+	height: 30px;
+	width: 300px;
+	font-size:24px;
+}
 fieldset ~ input, fieldset ~ textarea {
 	border-bottom: 1px dotted #dcdcdc;
 	border-top: none;
@@ -24,38 +27,59 @@ fieldset ~ input, fieldset ~ textarea {
 	border-left: none;
 	padding: 5px;
 	width: 70%;
+
 }
-fieldset ~ input#submit {
+textarea {
+	font-size:24px;
+}
+
+fieldset input#submit {
 	color: #ffffff;
-	background-color: #665544;
-	border: none;
-	border-radius: 5px;
-	width: 80px;}
+	background-color: #1F1F1F;
+	width: 180px;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	text-shadow:none;
+	
+}
+
+fieldset input#submit:hover {
+	background: #016ABC;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	text-shadow:none;
+}
 
 select {
 	font-size: large;
 	width: 150px;
 	font-weight: normal;
 	}
-
-.contact2 {
+/* wrappers */
+.contactwrap {
+	width:100%;
+	float:left;
+	font: 20px/1.5 Arial Helvetica, Sans-sarif;
+	background-color: #1F1F1F;
+}
+.faqwrap {
 	width: 50%;
 	float:left;
 	font: 20px/1.5 Arial Helvetica, Sans-sarif;
-	background-color: lightgray;
+	background-color: #1F1F1F;
 }
-
-.contact2 h1 {
+.faqwrap h1, .contactwrap h1 {
 	text-align: center;
+	color: #ffffff;
 }
-
 .fullrescontainer {
 	margin: 0;
 	height: 800px;
 	overflow: hidden;
 	background-color: #ffffff;
 }
-
 .fullrescontainer2 {
 	margin: 0;
 	height: 800px;
@@ -64,55 +88,34 @@ select {
 	display: flex;
 	flex-direction: row;
 }
-
-
-.tabs > img {
-	height: 100%;
-	width: 100%;
-}
-
-.picture {
-	height: 100px;
-	width: 100px;
-}
-.picture2 {
-	height: 250px;
-	width: 200px;
-	float:left;
-	margin: 5px;
-}
-
-.mediumfont {
-	font:20px/1.5 Arial, Helvetica, Sans-sarif;
-}
-
 /* Tabs for us */
-
 .tabs {
 	list-style-type: none;
 	padding: 0;
 	margin: 20px;
 	position: relative;
 }
-
 .tabs:after {
 	content: "";
 	clear: both;
 	display: block;
 }
-
 .tabs .tab-content{
 	display: none;
 	position: absolute;
 	padding: 20px;
 	border: 1px solid black;
-	background-color: rgba(69,115,135,0.4)
+	color: white;
+	background-color: rgba(31,31,31,1)
 }
-
+.tabs li label:hover {
+	background-color: rgba(1,38,80,0.9);
+	color: #ffffff;
+	transition: .3s ease;
+}
 .tabs li > input {
 	display: none;
 }
-
 .tabs li > label {
 	display: inline-block;
 	border: 1px solid black;
@@ -122,19 +125,46 @@ select {
 	margin: auto;
 	cursor: pointer;
 	border-bottom-width: 0;
-	background-color: rgba(69,115,135,0.4);
+	color: #ffffff;
+	background-color: rgba(31,31,31,1);
 }
-
 .tabs li > input:checked + label {
-	background-color: rgba(69,115,135,0.4);
+	background-color: rgba(1,38,80,0.9);
 }
-
 .tabs li > input:checked ~ .tab-content {
 	display: inline-block;
+	top:0;
+	bottom: 0;
+	border-radius: 0px 20px 20px 0px;
+	border-left-width: 0;
+}
+.tabs li:last-child > label {
+	border-bottom-width: 1px;
+}
+.tabs > img {
+	height: 100%;
+	width: 100%;
+}
+.picture {
+	height: 100px;
+	width: 100px;
+	float:left;
+}
+.picture2 {
+	height: 250px;
+	width: 200px;
+	float:left;
+	margin: 5px;
 }
 
+.textposition {
+	line-height: 100px;
+	font-weight: bold;
+}
+.mediumfont {
+	font:20px/1.5 Arial, Helvetica, Sans-sarif;
+}
 /* FAQ tabs vertical */
-
 .faqs {
 	list-style-type: none;
 	padding: 0;
@@ -143,29 +173,22 @@ select {
 	text-align: center;
 	vertical-align: middle;
 }
-
 .faqs:after {
 	content: "";
 	clear: both;
 	display: block;
 	height: 300px;
 }
-
-
 .faqs .faq-content{
 	display: none;
-	
+	color: white;
 	padding: 20px;
 	border: 1px solid black;
-	background-color: rgba(69,115,135,0.4)
+	background-color: rgba(1,38,80,0.8)
 }
-
-
 .faqs li > input {
 	display: none;
 }
-
-
 .faqs li > label {
 	display: block;
 	border: 1px solid black;
@@ -174,29 +197,21 @@ select {
 	margin: auto;
 	cursor: pointer;
 	border-bottom-width: 0;
-	background-color: rgba(0,0,0,0.1);
+	background-color: rgba(255, 255, 255, 1);
 }
 
-.tabs li:last-child > label {
-	border-bottom-width: 1px;
+.faqs li label:hover {
+	background-color: rgba(1,38,80,0.9);
+	color: #ffffff;
+	transition: .3s ease;
 }
-
-
 .faqs li:last-child > label {
 	border-bottom-width: 1px;
 }
-
 .faqs li > input:checked + label {
-	background-color: rgba(0,0,0,0.2);
+	background-color: rgba(255, 255, 255, 1);
+	color: black;
 }
-
 .faqs li > input:checked ~ .faq-content {
 	display: block;
-}
-
-.textposition {
-	position: relative;
-	margin-top: 4px;
-	text-align: center;
-	vertical-align: middle;
 }
