@@ -15,7 +15,6 @@
     color: #FFFFFF;
   }
 
-
   /* Headerstyle.. */
 
   header {
@@ -206,7 +205,7 @@
 
 }
 .onclick-menu:before {
-    content: "about" " \25bc";
+    content: "about " url("img/arrowdown.png");
 
 }
 .onclick-menu:focus {
