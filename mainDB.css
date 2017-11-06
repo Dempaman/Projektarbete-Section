@@ -63,7 +63,7 @@ div, span, p {
 
 .mainTextStyle {
   text-align: left;
-  font-family: arial;
+  font-family: 'Roboto';
   color: #3b3a30;
   font-size: 38px;
   line-height: 48px;
@@ -74,7 +74,7 @@ div, span, p {
 .show51 {
   display: none;
   text-align: left;
-  font-family: arial;
+  font-family: 'Roboto';
   color: #3b3a30;
   font-size: 22px;
   line-height: 32px;
@@ -113,7 +113,7 @@ section {
   text-decoration: none;
   cursor: pointer;
   line-height: 40px;
-  font-family: arial;
+  font-family: 'Roboto';
 }
 
 a.button {
@@ -187,16 +187,16 @@ a.button {
 
 .barStyle {
   padding: 50px 30px;
-  background-color: #222222;
+  background-color: #000000;
   display: block;
   letter-spacing: 0.3px;
-  border-bottom: solid 1px #005085;
+  border-bottom: solid 2px #005085;
 }
 
 .wrap {
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
-  font-family: arial;
+  font-family: 'Roboto';
   font-weight: 400;
 }

@@ -15,14 +15,11 @@
     color: #FFFFFF;
   }
 
-  body {
-    background-color:  #E0E2E4;
-  }
 
   /* Headerstyle.. */
 
   header {
-    height: 50px;
+    height: 30px;
     position: relative;
     background-color: #000000;
     color: #FFFFFF;
@@ -32,7 +29,7 @@
     height: 100%;
     padding-left: 0px;
     padding-right: 30px;
-    /*  max-width: 1280px;*/
+  /*  max-width: 1280px; */
     display: block;
   }
 
@@ -51,7 +48,7 @@
 
   .right-header {
     position: absolute;
-    font-family: arial;
+    font-family: 'Roboto';
     text-transform: uppercase;
     font-size: 10px;
     list-style: none;
@@ -68,7 +65,7 @@
   }
 
   .account-link {
-    padding: 10px 20px;
+    padding: 5px 20px;
     line-height: 25px;
     display: inline-block;
     font-weight: 400;
@@ -76,10 +73,12 @@
 
   .a-text {
     font-size: 120%;
-    padding-left: 15px;
+    padding-left: 10px;
     display: inline-block;
     text-decoration: none;
+    bottom: 5px;
   }
+
 
   .headerIcons, .a-text {
     top: 50%;
@@ -93,7 +92,7 @@
     opacity: 0.3;
   }
 
-  a>img {
+  .account-link img {
     height: 20px;
     position: relative;
   }
@@ -103,10 +102,10 @@
   /* navigation style and flex box */
 
   .navigation {
-    border-top: 1px solid #263238;
-    border-bottom: 1px solid #263238;
+  /*  border-top: 1px solid #005085; */
+    border-bottom: 1px solid #005085;
     list-style-type: none;
-    padding: 10px 25px;
+    padding: 5px 25px;
     margin: 0;
     background: #1F1F1F;
     display: -webkit-box;
@@ -126,7 +125,7 @@
     margin-right: 15px;
     margin-left: 15px;
     color: #FFFFFF;
-    font-family: arial;
+    font-family: 'Roboto';
   }
 
   .navigation li:hover {
@@ -187,3 +186,43 @@
   }
 
   /* Text hover underline effect END... */
+
+
+/* Click-dropdown menu är hämtad från https://koen.kivits.com/articles/pure-css-menu/#cons
+*
+*/
+
+  .onclick-menu {
+    position: relative;
+    display: inline-block;
+
+}
+.onclick-menu:before {
+    content: "about" " \25bc";
+
+}
+.onclick-menu:focus {
+    /* clicking on label should toggle the menu */
+    pointer-events: none;
+
+}
+.onclick-menu:focus .onclick-menu-content {
+    /*  opacity is 1 in opened state (see below) */
+    opacity: 1;
+    visibility: visible;
+
+    /* don't let pointer-events affect descendant elements */
+    pointer-events: auto;
+}
+.onclick-menu-content {
+    position: absolute;
+    z-index: 1;
+    background: #1F1F1F;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.8);;
+    border-radius: 2px;
+
+    /* use opacity to fake immediate toggle */
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.5s;
+}
