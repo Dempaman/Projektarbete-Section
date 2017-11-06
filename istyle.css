@@ -11,7 +11,6 @@ body {
 }
 
 .Pmain {
-<<<<<<< HEAD
   display: flex;
   background-color: #000000;
   /* background-color: RGB(250,240,250); */
@@ -39,14 +38,6 @@ body {
   /*  background-color: white; */
   background-color: #000000;
 }
-=======
-    display:flex;
-    background-color: RGB(70,70,70);
-    flex-direction: column;
-    text-align: center;
-}
-.Pmain > * { background-color: gray;}
->>>>>>> c06bf76065b822bcee9b4c0a568f6b7e38a19500
 
 .Productdisplay {
   display: flex;
@@ -163,18 +154,3 @@ body {
   list-style: none;
   color: dimgrey;
 }
-
-<<<<<<< HEAD
-.Bottom>img {
-  align-self: center;
-  width: 100%;
-  height: 200px;
-}
-=======
-.Bottom > img {
-    align-self: center;
-    width: 100%;
-    height: 200px;
-    display: block;
-}
->>>>>>> c06bf76065b822bcee9b4c0a568f6b7e38a19500
