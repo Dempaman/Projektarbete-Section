@@ -1,0 +1,236 @@
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-transition: all 0.3s ease-out;
+    transition-delay: initial;
+  }
+
+  .right-header a:visited {
+    color: #FFFFFF;
+  }
+
+  .right-header a:link {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+
+
+  /* Headerstyle.. */
+
+  header {
+    height: 50px;
+    position: relative;
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+
+  .head-container {
+    height: 100%;
+    padding-left: 0px;
+    padding-right: 30px;
+  /*  max-width: 1280px; */
+    display: block;
+  }
+
+  .head-wrapper {
+    position: relative;
+    height: 100%;
+    display: block;
+  }
+
+  .left-header {
+    position: absolute;
+    list-style: none;
+    left: 0;
+    height: 100%;
+  }
+
+  .right-header {
+    position: absolute;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-size: 10px;
+    list-style: none;
+    right: 0;
+    height: 100%;
+  }
+
+  .right-header li {
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    list-style: none;
+    line-height: 20px;
+  }
+
+  .account-link {
+    padding: 15px 20px;
+    line-height: 25px;
+    display: inline-block;
+  }
+
+  .home-link {
+    padding: 10px 20px;
+    display: inline-block;
+  }
+
+  .a-text {
+    font-size: 120%;
+    padding-left: 10px;
+    display: inline-block;
+    text-decoration: none;
+    bottom: 5px;
+  }
+
+
+  .headerIcons, .a-text {
+    position: relative;
+    opacity: 1;
+    transition: .3s ease;
+    backface-visibility: hidden;
+  }
+
+  header li:hover .headerIcons, header li:hover .a-text {
+    opacity: 0.3;
+  }
+
+  .account-link img {
+    height: 20px;
+    position: relative;
+  }
+
+  .home-link img{
+    height: 30px;
+    position: relative;
+  }
+
+  /* Headerstyle and stuff END...*/
+
+  /* navigation style and flex box */
+
+  .navigation {
+  /*  border-top: 1px solid #005085; */
+    border-bottom: 1px solid #005085;
+    list-style-type: none;
+    padding: 5px 25px;
+    margin: 0;
+    background: #1F1F1F;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: flex-end;
+    text-transform: uppercase;
+  }
+
+  .navigation li {
+    position: relative;
+    display: block;
+    padding: 1em;
+    margin-right: 15px;
+    margin-left: 15px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+  }
+
+  .navigation li:hover {
+    /*background: #6F6F6F;*/
+    cursor: pointer;
+  }
+
+  @media all and (max-width: 800px) {
+    .navigation {
+      justify-content: space-around;
+    }
+  }
+
+  @media all and (max-width: 600px) {
+    .navigation {
+      -webkit-flex-flow: column wrap;
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .navigation li {
+      text-align: center;
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255, 0.3);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .navigation:last-of-type li {
+      border-bottom: none;
+    }
+    .a-text {
+      display: none;
+    }
+  }
+
+  /* navigation style and flex box END */
+
+  /* Text hover underline effect */
+
+  .navigation li:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 1em;
+    width: 100%;
+    border-bottom: 1px solid #B86F15;
+    margin-top: 10px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+  }
+
+  .navigation li:hover:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  /* Text hover underline effect END... */
+
+
+/* Click-dropdown menu är hämtad från https://koen.kivits.com/articles/pure-css-menu/#cons
+*
+*/
+
+  .onclick-menu {
+    position: relative;
+    display: inline-block;
+
+}
+.onclick-menu:before {
+    content: "about" " \25bc";
+
+}
+.onclick-menu:focus {
+    /* clicking on label should toggle the menu */
+    pointer-events: none;
+
+}
+.onclick-menu:focus .onclick-menu-content {
+    /*  opacity is 1 in opened state (see below) */
+    opacity: 1;
+    visibility: visible;
+
+    /* don't let pointer-events affect descendant elements */
+    pointer-events: auto;
+}
+.onclick-menu-content {
+    position: absolute;
+    z-index: 1;
+    background: #1F1F1F;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.8);;
+    border-radius: 2px;
+
+    /* use opacity to fake immediate toggle */
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.5s;
+}

@@ -3,19 +3,82 @@
 <head>
     <title></title>
     <link rel="stylesheet" href="istyle.css">
+    <link rel="stylesheet" type="text/css" href="headstyle.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
+  <!-- Nav and header -->
+  <header>
+    <div class="head-container">
+      <div class="head-wrapper">
+
+        <ul class="left-header">
+          <li>
+            <a class="home-link" href="#">
+              <!--home button -->
+              <img  src="img/logoblack.png">
+            </a>
+
+          </li>
+        </ul>
+        <ul class="right-header">
+          <li>
+            <a class="account-link" href="#">
+              <!--user button -->
+              <img class="headerIcons" src="img/userwhite.png">
+              <span class="a-text">My account</span>
+            </a>
+          </li>
+          <li>
+            <a class="account-link" href="#">
+              <!--shopping cart button -->
+              <img class="headerIcons" src="img/cartwhite.png">
+              <span class="a-text">cart</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </header>
+
+  <nav>
+    <div>
+      <ul class="navigation">
+        <li>shop</li>
+        <li>contact</li>
+        <li>
+          <div tabindex="0" class="onclick-menu">
+            <ul class="onclick-menu-content">
+              <li>Product</li>
+              <li>Vision</li>
+              <li>staff</li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Nav and header END -->
+
+
     <section class="Pmain">
+      <div class="containerMain">
+        <div class="innerContainer">
         <div class="Productdisplay">
-            <div class="Pimage">
+          <!--  <div class="Pimage">
                 <img src="http://i.imgur.com/Epluy.jpg" alt="Fancy keyboard">
-            </div>
+            </div> -->
             <div class="Pinfo">
+              <img class="imgleft" src="img/romerg.gif">
                 <h2>The ARK</h2>
+                <div class="Tbox">
                 <p>The ARK is, as named, specialized in remote access and automated typing. For tens of years, many dreamed about a keyboard like it, but due to technological restrictions it was not possible... However. With the release of the Peer Pressure Pistons (Patent Pending) tech such restrictions have been lifted. The use of this tech is yet unexplored carrying infinite potential, and our product promises nothing less, something completely unseen in modern society.</p>
+              </div>
             </div>
         </div>
-        
+
         <div class="shortcuts">
             <div> <a href="#PPPM">
                 <img src="https://maxcdn.icons8.com/Share/icon/color/Gaming//pokecoin1600.png" alt="link">
@@ -32,21 +95,21 @@
             <div> <a href="#SpecM">
                 <img src="https://maxcdn.icons8.com/Share/icon/color/Gaming//pokecoin1600.png" alt="link">
                 </a> </div>
-        
+
         </div>
-        
+
         <div class="PPPM" id="PPPM">
             <h3>PPP keys</h3>
             <div> The new breakthrough in Keyboard tech, mechanical switches are enhanced with metal hooks, softening the keystroke to reduce stress on the keys to increase key stroke life span by up to 90 million strokes. That's not all, the highly adaptable hooks enable never-before-seen control of the individual keys of the entire keyboard. This can reduce noise, increase or decrease actuation force and even lock keys in place if they should be unable to be accessed or hidden within the keyboard (Perfect for travelling).  </div>
-            
+
         </div>
-        
+
         <div class="FEUM" id="FEUM">
             <h3>FEU system</h3>
             <div> A system tailor-made for the PPP keys, this application controls all functionalities you might want on a PPP keyboard. Some of the many possibilities include freely locking keys in standing or lying position, changing the actuation force of any individual key to your liking or even completely switch the keys from tactile switches to linear. However, the FEU system is not limited to just modify your keyboard, due to the PPP tech it can also actively control the keyboard.  </div>
-        
+
         </div>
-        
+
         <div class="ReviewM" id=ReviewM>
             <div class ="Ritem">
                 <div class="Rimage">
@@ -57,7 +120,7 @@
                     <h6> "I must admit, I was sceptical. But after using it, I truly can never go back. The PPP switches will become a new global standard." </h6>
                 </div>
             </div>
-            
+
             <div class ="Ritem">
                 <div class="Rimage">
                     <img src="https://www.graphicsprings.com/filestorage/stencils/29c2824f9ba81b8e219075f347cf5e6b.svg" alt="Pro logo">
@@ -67,7 +130,7 @@
                     <h6> "The ARK is the made from the creators of the PPP switch, and it shows. Everything you might need from the new keys is there, and it's *good*." </h6>
                 </div>
             </div>
-            
+
             <div class ="Ritem">
                 <div class="Rimage">
                     <img src="https://www.graphicsprings.com/filestorage/stencils/29c2824f9ba81b8e219075f347cf5e6b.svg" alt="Pro logo">
@@ -78,7 +141,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="SpecM" id="SpecM">
             <h4> Spec overview </h4>
             <div>
@@ -91,11 +154,50 @@
                 </ul>
             </div>
         </div>
-        
-        <div class="Bottom">
+
+      <!--  <div class="Bottom">
             <img src="https://i.pinimg.com/originals/8d/1a/fd/8d1afdf0c54bb93d11d553306c03cd34.jpg" alt="error">
-        </div>
-    
+        </div>    -->
+      </div>
+      </div>
     </section>
+
+    <!-- Footer start -->
+    <footer class="footerBox">
+      <div class="containerfoot">
+        <div class="logofoot">
+          <img src="img/logoblue.png">
+        </div>
+      </div>
+
+      <div class="containerfoot">
+        <ul class="footerlinks">
+          <li><a href="#">Kontakta oss</a></li>
+          <li><a href="#">Prislista/shop</a></li>
+          <li><a href="#">Vision</a></li>
+          <li><a href="#">Karriär</a></li>
+        </ul>
+      </div>
+
+      <div class="containerfootcopy">
+        <div class="footer-copyright">©2017 SECTION 51. ALL RIGHTS RESERVED.
+        </div>
+      </div>
+
+      <div class="containerfootcopy">
+        <div class="footer-trademark">All trademarks referenced herein are the properties of their respective owners.
+        </div>
+      </div>
+
+      <div class="containerfoot">
+        <ul class="footerlinks">
+          <li><a href="#"><img src="img\facebook.png" ></a></li>
+          <li><a href="#"><img src="img\insta.png"></a></li>
+          <li><a href="#"><img src="img\twitter.png"></a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Footer start END... -->
 </body>
 </html>

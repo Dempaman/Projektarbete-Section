@@ -1,98 +1,162 @@
-.Pmain {
-    display:flex;
-    background-color: RGB(250,240,250);
-    flex-direction: column;
-    text-align: center;
+body {
+  background-color: #000000;
 }
-.Pmain > * { background-color: white;}
+
+.imgleft {
+  float: left;
+  margin-top: 40px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.Pmain {
+  display: flex;
+  background-color: #000000;
+  /* background-color: RGB(250,240,250); */
+  flex-direction: column;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 20px;
+  font-family: 'Roboto';
+}
+.containerMain {
+  position: relative;
+  max-width: 1280px;
+  min-height: 200px;
+  width: 91%;
+  margin: 0 auto;
+  padding: 0;
+}
+.innerContainer {
+    padding: 0 5%;
+    margin: 0;
+    position: relative;
+}
+
+.Pmain>* {
+  /*  background-color: white; */
+  background-color: #000000;
+}
 
 .Productdisplay {
-    display: flex;
-    flex-direction: column;
-    border-top: solid 1px gray;
+  display: flex;
+  flex-direction: column;
+  border-top: solid 2px #005085;
+  border-bottom: solid 2px #005085;
 }
 
-.Pimage > img {
-    align-self: center;
-    width: 100%;
-    height: 200px;
+.Pinfo {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.Pinfo>h2 {
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 1.5px solid #B86F15;
+}
+
+.Tbox {
+  display: block;
+  position: relative;
+  top: 20px;
+  text-align: left;
+}
+
+.Pimage>img {
+  align-self: center;
+  width: 100%;
+  height: 200px;
 }
 
 .shortcuts {
-    display:flex;
-    flex-wrap: wrap;
-    width:100%;
-    margin-bottom: 50px;
-    border-bottom: solid 1px gray;
+  display: flex;
+  flex-wrap: wrap;
+  /* width:100%; */
+  margin-bottom: 50px;
+  border-bottom: solid 2px #005085;
 }
 
-.shortcuts > div {
-    margin: 4%;
-    text-align: center;
-    width:12%;
+.shortcuts>div {
+  margin: 4%;
+  text-align: center;
+  width: 12%;
 }
 
 .shortcuts img {
-    width: 4em;
+  width: 4em;
 }
 
 .PPPM {
-    display:flex;
-    flex-direction: column;
-    margin-bottom: 300px;
-    border-bottom: solid 1px gray;
-    border-top: solid 1px gray;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 300px;
+  border-bottom: solid 2px #005085;
+  border-top: solid 2px #005085;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .FEUM {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 300px;
-    border-bottom: solid 1px gray;
-    border-top: solid 1px gray;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 300px;
+  border-bottom: solid 2px #005085;
+  border-top: solid 2px #005085;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .ReviewM {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 150px;
-    width: 100%;
-    border-bottom: solid 1px gray;
-    border-top: solid 1px gray;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 150px;
+  width: 100%;
+  border-bottom: solid 2px #005085;
+  border-top: solid 2px #005085;
 }
+
+.ReviewM .Ritem {
+  margin: 0;
+}
+
 .Ritem {
-    display:flex;
-flex-direction: column;
-flex: 0 0 31%;
-padding: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 0 0 31%;
+  padding: 1%;
 }
 
-.Rimage > img {
-    max-width: 80px;
+.Rimage>img {
+  max-width: 80px;
 }
 
-.Rcontent {
-    
-}
+.Rcontent {}
 
 .SpecM {
-border-bottom: solid 1px gray;
-    border-top: solid 1px gray;
+  border-bottom: solid 2px #005085;
+  border-bottom: solid 2px #005085;
 }
 
-.SpecM > h4 {
-    text-align: left;
-    margin: 0;
+.SpecM>h4 {
+  /*  text-align: left; */
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .Tlist {
-    align-items: center;
-    list-style: none;
-    color: dimgrey;
+  align-items: center;
+  list-style: none;
+  color: dimgrey;
 }
 
-.Bottom > img {
-    align-self: center;
-    width: 100%;
-    height: 200px;
+.Bottom>img {
+  align-self: center;
+  width: 100%;
+  height: 200px;
 }
