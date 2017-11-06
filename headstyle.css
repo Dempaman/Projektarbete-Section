@@ -19,7 +19,7 @@
   /* Headerstyle.. */
 
   header {
-    height: 30px;
+    height: 50px;
     position: relative;
     background-color: #000000;
     color: #FFFFFF;
@@ -65,10 +65,14 @@
   }
 
   .account-link {
-    padding: 5px 20px;
+    padding: 15px 20px;
     line-height: 25px;
     display: inline-block;
-    font-weight: 400;
+  }
+
+  .home-link {
+    padding: 10px 20px;
+    display: inline-block;
   }
 
   .a-text {
@@ -81,7 +85,6 @@
 
 
   .headerIcons, .a-text {
-    top: 50%;
     position: relative;
     opacity: 1;
     transition: .3s ease;
@@ -94,6 +97,11 @@
 
   .account-link img {
     height: 20px;
+    position: relative;
+  }
+
+  .home-link img{
+    height: 30px;
     position: relative;
   }
 

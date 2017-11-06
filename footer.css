@@ -35,8 +35,8 @@
   justify-content: center;
 }
 
-.footerBox>.containerfoot:first-child>ul>li>a::after {
-  content: "  \203A";
+.footerBox .containerfoot:nth-child(2)>ul>li>a::after {
+  content: "  \007c";
 }
 
 footer>div>ul>li>a {
@@ -73,4 +73,10 @@ footer>div>ul>li>a {
   margin-right: auto;
   max-width: 39em;
   text-align: center;
+}
+
+.logofoot img {
+  height: 50%;
+  width: auto;
+  position: relative;
 }
