@@ -65,9 +65,14 @@ body {
   text-align: left;
 }
 
+.Pimage {
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+
 .Pimage>img {
   align-self: center;
-  width: 100%;
   height: 200px;
 }
 
@@ -108,12 +113,15 @@ body {
 }
 
 .SpecM {
+    padding: 20px;
     border-bottom: solid 1px gray;
     border-top: solid 1px gray;
+    text-align: center;
 }
 
 .SpecM > h4 {
-    text-align: left;
+    padding-bottom: 10px;
+    text-align: center;
     border-top: black solid 1px;
 }
 
