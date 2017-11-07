@@ -53,8 +53,11 @@ section{
 .hoverprod img {
   display: block;
   position: relative;
-  align-content: flex-end
-  border: 1px solid #0c0759;
+  align-content: flex-end;
+    margin-left: 0;
+   
+    
+    padding-top: 30px;
 }
 
 .hoverprod h2 {
