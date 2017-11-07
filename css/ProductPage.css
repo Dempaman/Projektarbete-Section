@@ -5,12 +5,15 @@
     text-decoration: none;
 }
 
+section{
+    background: #000000;
+}
 /* For the heading on the product list */
 
 .ProdBox{
     display:inline-block;
     margin:10px 20px;
-    padding:5px;
+    padding:10px;
     
     border:1px solid #CCC;
 }
@@ -50,6 +53,8 @@
 .hoverprod img {
   display: block;
   position: relative;
+  align-content: flex-end
+  border: 1px solid #0c0759;
 }
 
 .hoverprod h2 {
@@ -80,9 +85,9 @@
 .hoverprod a.info {
   display: inline-block;
   text-decoration: none;
-  padding: 7px 14px;
+  padding: 3px 3px;
   text-transform: uppercase;
-  margin: 50px 0 0 0;
+  margin: 25px 0 0 0;
   background-color: transparent;
   -webkit-transform: translateY(-200px);
   -ms-transform: translateY(-200px);
