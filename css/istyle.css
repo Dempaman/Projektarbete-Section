@@ -1,6 +1,14 @@
 body {
   background-color: #000000;
 }
+@media all and (max-width: 800px) {
+ .ReviewM {
+ flex-direction: column;
+ }
+ .Ritem {
+ width:100%;
+ }
+}
 
 a:visited {
   color: #FFFFFF;
