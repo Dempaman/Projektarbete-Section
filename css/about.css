@@ -7,7 +7,7 @@ fieldset {
 	padding-left: 55px;
 	color:#ffffff;
 	border-radius: 20px;
-	background-color: #012650;
+	background-color: #1F1F1F;
 	height: 800px;
 }
 fieldset legend {
@@ -89,6 +89,15 @@ select {
 	background-color: #ffffff;
 	display: flex;
 	flex-direction: row;
+}
+.contactwrap h1 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.faqwrap h1{
+	margin-top: 35px;
+	margin-bottom: 35px;
 }
 /* Tabs for us */
 .tabs {
@@ -216,9 +225,11 @@ select {
 .faqs li > input:checked + label {
 	background-color: rgba(0, 0, 0,1);
 	color: #ffffff;
+	text-decoration: underline;
 }
 .faqs li > input:checked ~ .faq-content {
 	display: block;
+
 }
 .staff-header{
 	display: block;
