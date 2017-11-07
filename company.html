@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
-    <link rel="stylesheet" href="cstyle.css">
-    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Team Section">
     <title> Section 51 - ARK</title>
-    <link rel="stylesheet" type="text/css" href="headstyle.css">
-    <link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="stylesheet" type="text/css" href="./css/headstyle.css">
+    <link rel="stylesheet" type="text/css" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/cstyle.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
@@ -17,9 +20,9 @@
 
         <ul class="left-header">
           <li>
-            <a class="home-link" href="#">
+            <a class="home-link" href="index.html">
               <!--home button -->
-              <img  src="img/logoblack.png">
+              <img  src="img/logowhite.png">
             </a>
 
           </li>
@@ -49,13 +52,20 @@
     <div>
       <ul class="navigation">
         <li>shop</li>
-        <li>contact</li>
+        <li>
+          <div tabindex="0" class="onclick-menu-product">
+            <ul class="onclick-menu-content">
+             <a href="iproduct.html"> <li>The<span style="color:#1F1F1F;">_</span>ARK</li></a>
+              <a href="nproduct.html"><li>ASCEND</li></a>
+            </ul>
+          </div>
+        </li>
         <li>
           <div tabindex="0" class="onclick-menu">
             <ul class="onclick-menu-content">
-              <li>Product</li>
-              <li>Vision</li>
-              <li>staff</li>
+             <a href="about.html#direct-contact"> <li>contact</li></a>
+              <a href="company.html"><li>Vision</li></a>
+              <a href="about.html"><li>staff</li></a>
             </ul>
           </div>
         </li>
@@ -63,65 +73,65 @@
     </div>
   </nav>
   <!-- Nav and header END -->
-    
+
     <section class="Pmain">
         <div class="containerMain">
         <div class="innerContainer">
         <div class="Productdisplay">
             <div class="Pimage">
-                <img src="http://matogconsulting.com/wp-content/uploads/2012/06/company_formation.jpg" alt="Company image">
+                <img src="img/logowhite.png" alt="Company image">
             </div>
             <div class="Pinfo">
                 <h2>Section 51</h2>
                 <p class="Tbox"> Welcome to our home, we at Section 51 work daily on bringing new technology out in the world as well as enhancing the technology we have, we aim to be a fair business with nothing but happy costumers. Our main product line is our tri-keyboard setup that is bound to change your life for the better whichever one you may choose. </p>
             </div>
         </div>
-        
+
         <div class="PPPM" id="PPPM">
             <h3>Our team</h3>
             <div> We are a team of four uprising creators from Sweden, eager to show the world what we burn for with the capabilities to match our ambitions. We aren't looking to save the world, or even a city, but we are actively working towards making the life of everyone in the modern world more exciting and just a little easier.
                 We started from zero, from scratch, in a room full of other creative minds, and got together under the name 'section'. Initially we had no clue what we were getting ourselves into, but as we worked together we slowly realised what made each individual work, how *we* worked. Together, we thrived, coming up with idea after idea, taking one step higher for every hour that passed, there was never a minute where an idea wasn't being put up or worked on. This process has not stopped even now, and we are continously evolving and coming up with new ideas, you're welcome to join on our journey, welcome to our home! The place where we come together and help everyone to a greater daily life in a digital society. </div>
         </div>
-        
-        
+
+
         <div class="ReviewM" id=ReviewM>
             <div class ="Ritem">
                 <div class="Rimage">
-                    <img src="http://xenobladechronicles3d.nintendo.com/assets/images/media/shulk-icon.jpg" alt="Pro logo">
+                    <img src="img/jonas.jpg" alt="Pro logo">
                 </div>
                 <div class="Rcontent">
-                    <h5> Dracalu </h5>
+                    <h5> Jonas </h5>
                 </div>
             </div>
-            
+
             <div class ="Ritem">
                 <div class="Rimage">
-                    <img src="http://xenobladechronicles3d.nintendo.com/assets/images/media/shulk-icon.jpg" alt="Pro logo">
+                    <img src="img/Dennis.jpg" alt="Pro logo">
                 </div>
                 <div class="Rcontent">
-                    <h5> Hsa </h5>
+                    <h5> Dennis </h5>
                 </div>
             </div>
-            
+
             <div class ="Ritem">
                 <div class="Rimage">
-                    <img src="http://xenobladechronicles3d.nintendo.com/assets/images/media/shulk-icon.jpg" alt="Pro logo">
+                    <img src="img/Chris.jpg" alt="Pro logo">
                 </div>
                 <div class="Rcontent">
-                    <h5> Hansel </h5>
+                    <h5> Christopher </h5>
                 </div>
             </div>
-            
+
             <div class ="Ritem">
                 <div class="Rimage">
-                    <img src="http://xenobladechronicles3d.nintendo.com/assets/images/media/shulk-icon.jpg" alt="Pro logo">
+                    <img src="img/an.jpg" alt="Pro logo">
                 </div>
                 <div class="Rcontent">
-                    <h5> Ku Kulän </h5>
+                    <h5> MR.? </h5>
                 </div>
             </div>
         </div>
-        
+
         <div class="SpecM" id="SpecM">
             <h4> Company Achievements </h4>
             <div>
@@ -134,43 +144,48 @@
                 </ul>
             </div>
         </div>
-            
+
         </div>
     </div>
     </section>
-    <footer class="footerBox" id="footer">
-      <div class="containerfoot">
-        <div class="logofoot">
-          <img src="img/logoblue.png">
-        </div>
-      </div>
+  <!-- Footer start -->
+  <footer class="footerBox">
+    <div class="logoContainer">
+      <a href="#" class="logofoot">
+        <img src="img/logowhite.png">
+      </a>
+    </div>
 
-      <div class="containerfoot">
-        <ul class="footerlinks">
-          <li><a href="#">Kontakta oss</a></li>
-          <li><a href="#">Prislista/shop</a></li>
-          <li><a href="#">Vision</a></li>
-          <li><a href="#">Karriär</a></li>
-        </ul>
-      </div>
+    <div class="containerfoot">
+      <ul class="footerlinks">
+        <li><a href="about.html#direct-contact">Contact us</a></li>
+        <li><a href="#">Pricelist/shop</a></li>
+        <li><a href="company.html">Vision</a></li>
+        <li><a href="#">Career</a></li>
+      </ul>
+    </div>
 
-      <div class="containerfootcopy">
-        <div class="footer-copyright">©2017 SECTION 51. ALL RIGHTS RESERVED.
-        </div>
+    <div class="containerfootcopy">
+      <div class="footer-copyright">©2017 SECTION 51. ALL RIGHTS RESERVED.
       </div>
+    </div>
 
-      <div class="containerfootcopy">
-        <div class="footer-trademark">All trademarks referenced herein are the properties of their respective owners.
-        </div>
+    <div class="containerfootcopy">
+      <div class="footer-trademark">All trademarks referenced herein are the properties of their respective owners.
       </div>
+    </div>
 
-      <div class="containerfoot">
-        <ul class="footerlinks">
-          <li><a href="#"><img src="img\facebook.png" ></a></li>
-          <li><a href="#"><img src="img\insta.png"></a></li>
-          <li><a href="#"><img src="img\twitter.png"></a></li>
-        </ul>
-      </div>
-    </footer>
+    <div class="containerfoot">
+      <ul class="footerlinks">
+        <li><a href="#"><img src="img\facebook.png" ></a></li>
+        <li><a href="#"><img src="img\insta.png"></a></li>
+        <li><a href="#"><img src="img\twitter.png"></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Footer start END... -->
+
+
 </body>
 </html>
