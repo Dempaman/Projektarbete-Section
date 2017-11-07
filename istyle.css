@@ -2,8 +2,26 @@ body {
   background-color: #000000;
 }
 
+a:visited {
+  color: #FFFFFF;
+  font-family: "Roboto";
+}
+
+a:link {
+  color: #FFFFFF;
+  font-family: "Roboto";
+}
+
 .imgleft {
   float: left;
+  margin-top: 40px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.imgright {
+  float: right;
   margin-top: 40px;
   max-width: 100%;
   height: auto;
@@ -24,7 +42,7 @@ body {
   position: relative;
   max-width: 1280px;
   min-height: 200px;
-  width: 91%;
+  width: 70%;
   margin: 0 auto;
   padding: 0;
 }
@@ -115,6 +133,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 150px;
+  padding-bottom: 40px;
   width: 100%;
   border-bottom: solid 2px #005085;
   border-top: solid 2px #005085;
@@ -130,6 +149,8 @@ body {
   justify-content: center;
   flex: 0 0 31%;
   padding: 1%;
+  position: relative;
+  width: 60px;
 }
 
 .Rimage>img {
@@ -164,4 +185,9 @@ body {
     font-size: 0.5em;
     z-index: 1;
     border-radius: 10px;
+}
+
+.bottomcontainer {
+  display: flex;
+  justify-content: center;
 }

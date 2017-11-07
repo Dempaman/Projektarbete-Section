@@ -21,11 +21,12 @@
   position: relative;
   display: block;
   background-color: #012650;
+  margin: 0 auto;
   /*#161618;*/
 }
 
 .containerfoot {
-  padding: 50px 0 50px;
+  padding: 25px 0 25px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -36,7 +37,7 @@
 }
 
 .footerBox .containerfoot:nth-child(2)>ul>li>a::after {
-  content: "  \007c";
+  content: "  \203A";
 }
 
 footer>div>ul>li>a {
@@ -75,8 +76,19 @@ footer>div>ul>li>a {
   text-align: center;
 }
 
-.logofoot img {
-  height: 50%;
-  width: auto;
+
+.logoContainer {
+  padding-top: 20px;
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 39em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.logoContainer img {
+  height: 40px;
+  display: block;
 }
