@@ -261,10 +261,10 @@
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.8);
     right: 0px;
     margin-top: 5px;
-    ;
     border-radius: 2px;
     /* use opacity to fake immediate toggle */
     opacity: 0;
     visibility: hidden;
     transition: visibility 0.5s;
+    white-space: normal;
   }
