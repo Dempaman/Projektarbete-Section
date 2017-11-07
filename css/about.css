@@ -151,7 +151,7 @@ select {
 }
 .picture2 {
 	height: 250px;
-	width: 200px;
+	width: 250px;
 	float:left;
 	margin: 5px;
 }
@@ -248,6 +248,12 @@ select {
 .arrowdownmobile {
 	display: none;
 }
+.logocontainer{
+	border-top: solid 2px #005085;
+ 	margin-bottom: 20px;
+  	text-align: center;
+  	margin-top: 20px;
+ }
 @media all and (max-width: 1200px) {
 .tabs{
 	min-height: 880px;
@@ -323,7 +329,7 @@ select {
 }
 .picture2 {
 	height: 250px;
-	width: 200px;
+	width: 250px;
 	margin: 5px;
 	float:none;
 }
