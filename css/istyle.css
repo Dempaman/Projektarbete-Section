@@ -6,7 +6,7 @@ body {
  flex-direction: column;
  }
  .Ritem {
- width:100%;
+ min-width:100%;
  }
 }
 
