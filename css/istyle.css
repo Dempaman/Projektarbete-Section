@@ -162,7 +162,8 @@ a:link {
 }
 
 .Rimage>img {
-  max-width: 80px;
+  width: 100%;
+  max-width: 60px;
 }
 
 .Rcontent {}
