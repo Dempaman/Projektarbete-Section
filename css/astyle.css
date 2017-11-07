@@ -160,10 +160,13 @@ a:link {
 .Rcontent {}
 
 .SpecM {
-  border-bottom: solid 2px #005085;
-  border-bottom: solid 2px #005085;
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 2px #005085;
+    border-bottom: solid 2px #005085;
     margin-bottom: 20px;
     text-align: left;
+    align-items: center;
 }
 
 .SpecM>h4 {
@@ -175,9 +178,13 @@ a:link {
 }
 
 .Tlist {
-  align-items: center;
-  list-style: none;
-  color: dimgrey;
+    color: dimgrey;
+    margin-bottom: 20px;
+}
+
+.Tlist td, th {
+    border: dimgrey solid 1px;
+    padding: 4px;
 }
 
 #fixed {
