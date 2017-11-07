@@ -248,6 +248,11 @@ select {
 .arrowdownmobile {
 	display: none;
 }
+@media all and (max-width: 1200px) {
+.tabs{
+	min-height: 880px;
+	bottom:auto;
+}
 @media all and (max-width: 800px) {
 .fullrescontainer2 {
 	float:none;
@@ -269,7 +274,7 @@ select {
 }
  .faqwrap {
  	width: 100%;
- 	margin:0;
+ 	min-width: 0;
  }
  .faqs:after{
  	height: 100px;
