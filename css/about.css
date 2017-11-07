@@ -1,5 +1,7 @@
 /* Contactform */
-
+body {
+	font-family: 'Roboto';
+}
 fieldset {
 	border: 2px solid black;
 	padding-left: 55px;
@@ -61,14 +63,15 @@ select {
 .contactwrap {
 	width:100%;
 	float:left;
-	font: 20px/1.5 Arial Helvetica, Sans-sarif;
+	fontsize: 20px;
+	line-height: 1.5;
 	background-color: #1F1F1F;
 }
 .faqwrap {
 	width: 50%;
 	min-width: 400px;
 	float:left;
-	font: 20px/1.5 Arial Helvetica, Sans-sarif;
+	font-size: 16px;
 	background-color: #1F1F1F;
 }
 .faqwrap h1, .contactwrap h1 {
@@ -162,7 +165,8 @@ select {
 	margin-left: 5px;
 }
 .mediumfont {
-	font:20px/1.5 Arial, Helvetica, Sans-sarif;
+	font-size:20px;
+	line-height: 1.5;
 }
 /* FAQ tabs vertical */
 .faqs {
@@ -192,12 +196,13 @@ select {
 .faqs li > label {
 	display: block;
 	border: 1px solid black;
+	color: #ffffff;
 	height: 50px;
 	padding:5px 5px 5px 5px;
 	margin: auto;
 	cursor: pointer;
 	border-bottom-width: 0;
-	background-color: rgba(255, 255, 255, 1);
+	background-color: rgba(0, 0, 0, 1);
 }
 
 .faqs li label:hover {
@@ -209,8 +214,8 @@ select {
 	border-bottom-width: 1px;
 }
 .faqs li > input:checked + label {
-	background-color: rgba(255, 255, 255, 1);
-	color: black;
+	background-color: rgba(0, 0, 0,1);
+	color: #ffffff;
 }
 .faqs li > input:checked ~ .faq-content {
 	display: block;
@@ -281,6 +286,7 @@ select {
  .faqwrap {
  	width: 100%;
  	min-width: 0;
+
 }
  .faqs:after{
  	height: 100px;
@@ -340,7 +346,7 @@ select {
 	font-weight: bold;
 }
 .mediumfont {
-	font:20px/1.5 Arial, Helvetica, Sans-sarif;
+	font:20px/1.5;
 	text-align: left;
 }
 .arrowimg{
