@@ -224,7 +224,7 @@
 *
 */
 
-  .onclick-menu {
+  .onclick-menu, .onclick-menu-product {
     position: relative;
     display: inline-block;
   }
@@ -233,14 +233,20 @@
     content: "about " url("../img/arrowdown.png");
   }
 
-  .onclick-menu:focus {
+  .onclick-menu-product:before {
+    content: "Product " url("../img/arrowdown.png");
+  }
+
+  .onclick-menu:focus, .onclick-menu-product:focus {
+
     /* clicking on label should toggle the menu */
     pointer-events: none;
     outline: none;
 
   }
 
-  .onclick-menu:focus .onclick-menu-content {
+  .onclick-menu:focus .onclick-menu-content, .onclick-menu-product:focus .onclick-menu-content {
+
     /*  opacity is 1 in opened state (see below) */
     opacity: 1;
     visibility: visible;
