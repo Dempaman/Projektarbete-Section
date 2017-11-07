@@ -28,7 +28,7 @@
     height: 100%;
     padding-left: 0px;
     padding-right: 30px;
-  /*  max-width: 1280px; */
+    /*  max-width: 1280px; */
     display: block;
   }
 
@@ -82,7 +82,6 @@
     bottom: 5px;
   }
 
-
   .headerIcons, .a-text {
     position: relative;
     opacity: 1;
@@ -99,7 +98,7 @@
     position: relative;
   }
 
-  .home-link img{
+  .home-link img {
     height: 30px;
     position: relative;
   }
@@ -109,7 +108,7 @@
   /* navigation style and flex box */
 
   .navigation {
-  /*  border-top: 1px solid #005085; */
+    /*  border-top: 1px solid #005085; */
     border-bottom: 1px solid #005085;
     list-style-type: none;
     padding: 5px 25px;
@@ -140,6 +139,7 @@
     cursor: pointer;
   }
 
+
   @media all and (max-width: 800px) {
     .navigation {
       justify-content: space-around;
@@ -165,6 +165,31 @@
       display: none;
     }
   }
+
+  @media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .navigation {
+      -webkit-flex-flow: column wrap;
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .navigation li {
+      text-align: center;
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255, 0.3);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .navigation:last-of-type li {
+      border-bottom: none;
+    }
+    .a-text {
+      display: none;
+    }
+
+}
 
   /* navigation style and flex box END */
 
@@ -194,42 +219,42 @@
 
   /* Text hover underline effect END... */
 
-
-/* Click-dropdown menu är hämtad från https://koen.kivits.com/articles/pure-css-menu/#cons
+  /* Click-dropdown menu är hämtad från https://koen.kivits.com/articles/pure-css-menu/#cons
 *
 */
 
   .onclick-menu {
     position: relative;
     display: inline-block;
+  }
 
-}
-.onclick-menu:before {
+  .onclick-menu:before {
     content: "about " url("img/arrowdown.png");
+  }
 
-}
-.onclick-menu:focus {
+  .onclick-menu:focus {
     /* clicking on label should toggle the menu */
     pointer-events: none;
+  }
 
-}
-.onclick-menu:focus .onclick-menu-content {
+  .onclick-menu:focus .onclick-menu-content {
     /*  opacity is 1 in opened state (see below) */
     opacity: 1;
     visibility: visible;
-
     /* don't let pointer-events affect descendant elements */
     pointer-events: auto;
-}
-.onclick-menu-content {
+  }
+
+  .onclick-menu-content {
     position: absolute;
     z-index: 1;
     background: #1F1F1F;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.8);;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.8);
+    right: 0px;
+    ;
     border-radius: 2px;
-
     /* use opacity to fake immediate toggle */
     opacity: 0;
     visibility: hidden;
     transition: visibility 0.5s;
-}
+  }
