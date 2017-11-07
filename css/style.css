@@ -1,0 +1,119 @@
+#wrapper{font-family:monospace;}
+.container{width:90%;
+margin:0 auto;
+}
+#subheader{
+  width:100%;
+  height:30px;
+  background: gray;
+  color: #fff;
+  margin-top: -10px;
+
+}
+#subheader p{
+  float:left;
+  margin-top:7px
+}
+
+#subheader a{
+  float:right;
+  line-height: :30px;
+  color: #fff;
+  text-decoration: none;
+margin-left: 30px;
+}
+/* logo styling*/
+#main-header{
+    width:100%;
+    height: 100px;
+    background:lightgray;
+    float:left;
+    margin-top: -12px;
+}
+#logo{
+    width:150px;
+    margin-top: 10px
+    float:left;
+}
+#first{
+    color:black;
+    font-size:45px;
+    font-weight:bold;
+    margin-left: 15px;
+    font-family: sans-serif
+}
+#second{
+     color:black;
+    font-size:25px;
+    font-weight:bold;
+    
+    font-family: sans-serif
+    
+}
+/*searching area styling */
+#search{
+    width: 650px;
+    float:right;
+    padding:40px;
+    margin-top: -50px;
+}
+.search-area{
+    width:200px;
+    height:30px;
+    background:#fff;
+    border:none;
+    border-radius: 10px;
+    float:right;
+    padding-left: 20px;
+}
+.search-btn{
+    height: 40px;
+    border-radius: 10px;
+    border:none;
+    color:#fff;
+    background;white;
+    margin-right: -30px;
+}
+/* For the user menu styling*/
+
+#user-menu{
+   width: 300px;
+    float:right;
+    margin-top: -120px;
+}
+/* This is for the list styling */
+#user-menu li{
+    float:left;
+    width:120px;
+    text-align: center;
+    list-style: none;
+    font-size:15x;
+   
+
+}
+#user-menu li:hover{
+    font-size:20px;
+    transition: all .5s ease:
+}
+#user-menu li a{
+    color:black;
+    text-decoration: none;
+}
+/* this style for nav bar*/
+
+#navigation{
+    width:100%;
+    height:35px;
+    background: lightgray;
+    float:left;
+        
+}
+
+nav{
+    width:1280px;
+    margin: 0 auto;
+}
+
+nav a{
+    margin-right:65px;
+}

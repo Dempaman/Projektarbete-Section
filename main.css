@@ -65,3 +65,6 @@ input[type = submit]{
 #creditCard {
   margin-top: 5px;
 }
+body{
+    background-color: gray;
+}
