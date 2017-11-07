@@ -12,6 +12,7 @@ flex-direction: column;
 .Ritem {
  width:100%;
 }
+}
 
 .imgleft {
   float: left;
