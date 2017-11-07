@@ -1,0 +1,16 @@
+.product-quantity input{
+    margin: left;
+    border: solid black 1px;
+}
+
+.product-description{
+    border-style: solid #000000 1px;
+    margin: left;
+    font-style: oblique;
+    color: white;
+    
+}
+
+.totals-item shipping{
+    color: white;
+}

@@ -3,11 +3,13 @@
 
 <head>
   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="viewport" content="width=device-width">
   <title>Section 51 Shopping Cart</title>
+   
   <link rel="stylesheet" type="text/css" href="./css/headstyle.css">
   <link rel="stylesheet" type="text/css" href="./css/mainDB.css">
   <link rel="stylesheet" type="text/css" href="./css/footer.css">
+     <link rel="stylesheet" type="text/css" href="css/SectionCart.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./css/ShopSlider.css">
    <link rel="stylesheet" type="text/css" href="./css/ProductPage.css">
@@ -72,28 +74,24 @@
 
 
   <!-- Main -->
+    <section>
     <h1>Shopping Cart</h1>
 
 <div class="shopping-cart">
 
-  <div class="column-labels">
-    <label class="product-image">Image</label>
-    <label class="product-details">Product</label>
-    <label class="product-price">Price</label>
-    <label class="product-quantity">Quantity</label>
-    <label class="product-removal">Remove</label>
-    <label class="product-line-price">Total</label>
+  
+   
   </div>
 
   <div class="product">
     <div class="product-image">
-      <img src="img/keyright.jpg">
+      <img src="img/keyright.jpg" alt="ARKpic" width="300px" height="190px">
     </div>
     <div class="product-details">
       <div class="product-title">ARK</div>
-      <p class="product-description">.</p>
+      <p class="product-description"> The ARK, as its name suggests, specializes in remote access and automated typing, a concept that has been around for a very long time, but the tech has never allowed for the function to exist until now. </p>
     </div>
-    <div class="product-price">12.99</div>
+    <div class="product-price">219 USD</div>
     <div class="product-quantity">
       <input type="number" value="2" min="1">
     </div>
@@ -107,13 +105,13 @@
 
   <div class="product">
     <div class="product-image">
-      <img src="h">
+      <img src="img/SectionKeyWaterProof.jpg" alt="Diverpic" width="300px" height="190px">
     </div>
     <div class="product-details">
       <div class="product-title">DIVER</div>
-      <p class="product-description"></p>
+      <p class="product-description">The DIVER works through directly connecting your brain with the keyboard, catching brain signals of specific frequencies and converting them into electrical signals that the keyboard then reads, executing whatever command is linked to it.</p>
     </div>
-    <div class="product-price">89.99</div>
+    <div class="product-price">219.99 USD</div>
     <div class="product-quantity">
       <input type="number" value="1" min="1">
     </div>
@@ -127,13 +125,13 @@
     
     <div class="product">
     <div class="product-image">
-      <img src="h">
+      <img src="img/keyright.jpg"alt="ASCENDpic" width="300px" height="190px">
     </div>
     <div class="product-details">
-      <div class="product-title">DIVER</div>
-      <p class="product-description"></p>
+      <div class="product-title">ASCEND</div>
+      <p class="product-description"> Armed with the two weapons of salt and flame, cook your own experience with your own two hands and enjoy, ASCEND to the highest level!</p>
     </div>
-    <div class="product-price">89.99</div>
+    <div class="product-price">189.99 USD</div>
     <div class="product-quantity">
       <input type="number" value="1" min="1">
     </div>
@@ -142,32 +140,32 @@
         Remove
       </button>
     </div>
-    <div class="product-line-price">149.99</div>
+    <div class="product-line-price">0 USD</div>
   </div>
 
   <div class="totals">
     <div class="totals-item">
       <label>Subtotal</label>
-      <div class="totals-value" id="cart-subtotal">71.97</div>
+      <div class="totals-value" id="cart-subtotal">0.00 USD</div>
     </div>
     <div class="totals-item">
-      <label>Tax (5%)</label>
-      <div class="totals-value" id="cart-tax">3.60</div>
+      
+      <div class="totals-value" id="cart-tax">0.00 USD</div>
     </div>
     <div class="totals-item">
       <label>Shipping</label>
-      <div class="totals-value" id="cart-shipping">15.00</div>
+      <div class="totals-value" id="cart-shipping">0.00 USD</div>
     </div>
     <div class="totals-item totals-item-total">
       <label>Grand Total</label>
-      <div class="totals-value" id="cart-total">90.57</div>
+      <div class="totals-value" id="cart-total">0.00 USD</div>
     </div>
   </div>
       
       <button class="checkout">Checkout</button>
 
 </div>
-
+    </section>
   <!-- Main END...-->
 
   <!-- Footer start -->
