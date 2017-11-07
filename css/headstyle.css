@@ -70,7 +70,7 @@
   }
 
   .home-link {
-    padding: 10px 20px;
+    padding: 2px 20px;
     display: inline-block;
   }
 
@@ -99,8 +99,9 @@
   }
 
   .home-link img {
-    height: 30px;
+    height: 40px;
     position: relative;
+
   }
 
   /* Headerstyle and stuff END...*/
@@ -229,12 +230,14 @@
   }
 
   .onclick-menu:before {
-    content: "about " url("img/arrowdown.png");
+    content: "about " url("../img/arrowdown.png");
   }
 
   .onclick-menu:focus {
     /* clicking on label should toggle the menu */
     pointer-events: none;
+    outline: none;
+
   }
 
   .onclick-menu:focus .onclick-menu-content {
@@ -251,6 +254,7 @@
     background: #1F1F1F;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.8);
     right: 0px;
+    margin-top: 5px;
     ;
     border-radius: 2px;
     /* use opacity to fake immediate toggle */
