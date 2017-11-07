@@ -175,9 +175,13 @@ a:link {
 }
 
 .Tlist {
-  align-items: center;
-  list-style: none;
   color: dimgrey;
+    margin-bottom: 20px;
+}
+
+.Tlist td, th {
+    border: dimgrey solid 1px;
+    padding: 4px;
 }
 
 #fixed {
