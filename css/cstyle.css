@@ -1,6 +1,15 @@
 body {
   background-color: #000000;
 }
+/* delete if non-functional */
+@media all and (max-width: 800px) {
+ .ReviewM {
+flex-direction: column;
+}
+
+.Ritem {
+ width:100%;
+}
 
 .imgleft {
   float: left;
