@@ -1,3 +1,6 @@
+@media all and (max-witdh: 1200px;){
+    
+}
 .product-quantity input{
     margin: left;
     border: solid black 1px;
@@ -26,6 +29,8 @@ section{
 .totals{
     text-align: right;
     color: white;
+    border-style: solid;
+    border-color: white;
 }
 .checkout{
    text-align: right;
