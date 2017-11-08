@@ -4,6 +4,7 @@
   border: 0;
   -webkit-transition: all 0.3s ease-out;
   transition-delay: initial;
+  font-family: 'Roboto';
 }
 
 div, span, p {
