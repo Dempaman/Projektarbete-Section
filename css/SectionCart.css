@@ -14,3 +14,19 @@
 .totals-item shipping{
     color: white;
 }
+
+.h1{
+    color:white;
+    text-align: center;
+}
+section{
+    padding: 100px
+}
+
+.totals{
+    text-align: right;
+    color: white;
+}
+.checkout{
+   text-align: right;
+}
