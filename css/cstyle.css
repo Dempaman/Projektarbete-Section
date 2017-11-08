@@ -129,3 +129,18 @@ body {
     align-items: center;
     list-style: none;
 }
+Productdisplay2 {
+  display: flex;
+  flex-direction: column;
+}
+.Pimage .designcompany {
+  align-self: center;
+  height: 350px;
+}
+
+@media all and (max-width: 800px) {
+
+.Pimage .designcompany {
+  
+  height: 200px;
+}
