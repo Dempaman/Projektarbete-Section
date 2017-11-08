@@ -1,6 +1,6 @@
 @media all and (max-witdh: 1200px;){
     
-}
+
 .product-quantity input{
     margin: left;
     border: solid black 1px;
@@ -34,4 +34,5 @@ section{
 }
 .checkout{
    text-align: right;
+}
 }
